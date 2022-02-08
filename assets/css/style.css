@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    background-color: red;
+}
+#logo{
+    display: flex;
+    background-color: darkgray;
+    align-items: center;
+}
+#menu{
+    
+}
