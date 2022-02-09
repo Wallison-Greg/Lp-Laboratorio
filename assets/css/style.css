@@ -169,7 +169,7 @@ nav a:hover{
 
 #data-coment a{
     text-decoration: none;
-    color: black;
+    color: #666666;
 }
 #data-coment .news-data{
     display: flex;
@@ -198,13 +198,14 @@ nav a:hover{
     margin: 25px 0px 25px 0px;
     font-size: 25px;
     font-weight: bold;
+    color: black;
 }
 .news-resume{
     line-height: 20px;
     font-size: 14px;
     margin-bottom: 30px;
 }
-.widget-body{
+.flex{
     display: flex;
     flex-flow: row wrap;
 }
@@ -212,4 +213,58 @@ nav a:hover{
     flex: 1;
     min-width: 300px;
     margin-right: 25px;
+}
+
+/*Formatando o aside*/
+
+#trataments{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.procedments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 10px 15px 0px;
+    border-bottom: 1px solid #6666664f;
+}
+.procedments .exame{
+    color: #666666;
+    font-size: 16px;
+}
+.procedments .incluir{
+    color: #3156a3;
+}
+.procedments a{
+    text-decoration: none;
+}
+#desc-resum{
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cont a{
+    text-decoration:none;
+    color: #3d90fc;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+.ico-cont{
+    flex: 1;
+    width: 10px;
+    height: 20px;
+    background-color: #666666;
+}
+.tipe-cont{
+    font-size: 13px;
+    flex: 2;
 }
