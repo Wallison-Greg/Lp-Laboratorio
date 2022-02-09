@@ -116,6 +116,7 @@ nav a:hover{
 }
 .desc{
     font-size: 12px;
+    line-height: 18px;
     margin: 20px 0px 20px 0px;
 }
 #option a{
@@ -140,3 +141,75 @@ nav a:hover{
 }
 
 /*Formatando o corpo da aplicação*/
+
+#corpo{
+    display: flex;
+    justify-content: center;
+}
+#corpo article{
+    flex: 2;
+}
+#corpo aside{
+    flex:1;
+}
+.widget-title{
+    margin: 30px 0px 20px 0px;
+}
+.widget-title-text{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.widget-title-bar{
+    width: 50px;
+    height: 2px;
+    background-color: #42b3e5;
+}
+
+/*Formatando o conteudo principal*/
+
+#data-coment a{
+    text-decoration: none;
+    color: black;
+}
+#data-coment .news-data{
+    display: flex;
+    color: white;
+    font-size: 12px;
+}
+.news-posted{
+    display: block;
+    padding: 10px;
+    margin-right: 2px;
+    background-color: #3156a3;
+}
+.news-coments{
+    display: block;
+    padding: 10px;
+    background-color: #42b3e5;
+}
+.news-thumb{
+    margin-top: 30px;
+}
+.news-thumb img{
+    width: 100%;
+    height: auto;
+}
+.news-title{
+    margin: 25px 0px 25px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.news-resume{
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.widget-body{
+    display: flex;
+    flex-flow: row wrap;
+}
+#data-coment{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 25px;
+}
