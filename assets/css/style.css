@@ -308,6 +308,7 @@ footer{
     flex: 1;
     color: white;
     padding: 20px;
+    padding-left: 30px;
 }
 #fm-1{
     background-color: #42b3e5;
@@ -343,4 +344,75 @@ footer{
 .copy > a{
     color: white;
     text-decoration: none;
+}
+.menu-link{
+    font-size: 12px;
+    margin: 20px 0px 20px 0px;
+}
+.menu-title{
+    font-size: 21px;
+}
+.area-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #858585;
+    padding-right: 25px;
+}
+.area-desc{
+    font-size: 12px;
+    margin-bottom: 30px;
+    line-height: 19px;
+}
+.area-inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.contac-inf{
+    text-align: right;
+}
+.contac-inf > a{
+    color: white;
+    text-decoration: none;
+}
+.desc-inf >a{
+    display: flex;
+    flex-direction: row;
+}
+.redes{
+    flex: 1;
+    height: 30px;
+    width: 35px;
+    background-color: #66666698;
+    margin-right: 3px;
+    border-radius: 2px;
+}
+.red{
+    margin-top: 25px;
+}
+.face{
+    background-image: url('../img/face.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tweet{
+    background-image: url('../img/tweet.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.data{
+    background-image: url('../img/data.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
