@@ -243,7 +243,8 @@ nav a:hover{
     line-height: 20px;
     font-size: 14px;
     color: #666666;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #66666670;
 }
 #contact{
     display: flex;
@@ -257,14 +258,36 @@ nav a:hover{
 .cont{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #66666670;
 }
 .ico-cont{
     flex: 1;
-    width: 10px;
-    height: 20px;
-    background-color: #666666;
+    height: 30px;
+    background-color: #66666698;
+    border-radius: 5px;
 }
 .tipe-cont{
     font-size: 13px;
-    flex: 2;
+    flex: 6;
+    padding: 20px 0px 20px 10px;
+}
+.phone{
+    background-image: url('../img/telefone.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.email{
+    background-image: url('../img/email.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.form{
+    background-image: url('../img/formulario.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
