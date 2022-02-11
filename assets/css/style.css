@@ -473,11 +473,8 @@ footer{
     #headline > h2{
         padding-left: 3px;
     }
-    #opt1{
-        margin-left: 3px;
-    }
-    #opt3{
-        margin-right: 3px;
+    #opt1, #opt2, #op3{
+        padding: 15px;
     }
     .title{
         font-size: 19px;
@@ -485,6 +482,7 @@ footer{
     .desc{
         font-size: 11px;
         margin: 15px 0px 15px 0px;
+        text-align: justify;
     }
     .d1{
         font-size: 13px;
