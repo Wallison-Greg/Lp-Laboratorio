@@ -441,3 +441,76 @@ footer{
 }
 
 /*Formatação de tela para tablets*/
+
+@media (max-width: 662px){
+
+    /*Menu para celular deitado ou tablet*/
+
+    header{
+        height: 80px;
+    }
+    .container{
+        width: 665px;
+    }
+    nav a{
+        font-size: 12px;
+        padding: 8px;
+    }
+    #logo{
+        margin: 0px 0px 0px 3px;
+    }
+    #menu{
+        margin: 0px 3px 0px 0px;
+    }
+
+    /*Banner para celular deitado ou tablet*/
+    #baner{
+        height: 550px;
+    }
+    #headline > h1{
+        font-size: 50px;
+        max-width: 250px;
+    }
+    #headline > h2{
+        font-size: 17px;
+        max-width: 250px;
+    }
+    #headline > h1,
+    #headline > h2{
+        padding-left: 3px;
+    }
+    #opt1{
+        margin-left: 3px;
+    }
+    #opt3{
+        margin-right: 3px;
+    }
+    .title{
+        font-size: 19px;
+    }
+    .desc{
+        font-size: 11px;
+        margin: 15px 0px 15px 0px;
+    }
+    .d1{
+        font-size: 13px;
+    }
+    #option{
+        height: 196px;
+    }
+    #option a{
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    /*Corpo principal para celular deitado ou tablet*/
+
+    #cp-imp{
+        margin-left: 3px;
+    }
+
+    /*Rodapé para celular deitado ou tablet*/
+    .esq{
+        padding: 3px;
+    }
+}
