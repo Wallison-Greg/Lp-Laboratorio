@@ -442,7 +442,7 @@ footer{
 
 /*Formatação de tela para tablets*/
 
-@media (max-width: 662px){
+@media (max-width: 912px){
 
     /*Menu para celular deitado ou tablet*/
 
@@ -507,5 +507,75 @@ footer{
     /*Rodapé para celular deitado ou tablet*/
     .esq{
         padding: 3px;
+    }
+}
+
+/*Formatação de tela para celular*/
+
+@media (max-width: 590px){
+
+    /*Formatando o cabeçalho */
+
+    #headline{
+        padding-left: 15px;
+    }
+    #headline > h1{
+        font-size: 40px;
+    }
+    #headline > h2 {
+        font-size: 13px;
+        margin-top: 13px;
+    }
+    #baner{
+        height: 670px;
+    }
+    #option{
+        height: auto;
+        flex-direction: column;
+    }
+    #opt3{
+        border-radius: 0px;
+    }
+    #opt1{
+        border-radius: 3px;
+    }
+
+    /*Formatando o corpo principal*/
+
+    .container{
+        flex-direction: column;
+    }
+    #cp-imp{
+        padding: 15px;
+    }
+    .container aside{
+        padding: 15px;
+    }
+    .widget-title-text{
+        font-size: 18px;
+    }
+    .widget-title-bar{
+        width: 55px;
+    }
+    .news-title{
+        font-size: 20px;
+        margin: 15px 0px 15px 0px;
+    }
+    .news-resume{
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    #data-coment{
+        margin-right: 0px;
+    }
+
+    /*Foramtação rodapé*/
+
+    .footer-menu{
+        flex-direction: column;
+    }
+    .footer-area{
+        flex-direction: column;
+        padding: 15px;
     }
 }
