@@ -447,20 +447,14 @@ footer{
     /*Menu para celular deitado ou tablet*/
 
     header{
-        height: 80px;
+        height: 70px;
     }
     .container{
-        width: 660px;
+        width: 600px; /*660*/
     }
     nav a{
-        font-size: 12px;
-        padding: 8px;
-    }
-    #logo{
-        margin: 0px 0px 0px 3px;
-    }
-    #menu{
-        margin: 0px 3px 0px 0px;
+        font-size: 11.3px;
+        padding: 6px;
     }
 
     /*Banner para celular deitado ou tablet*/
@@ -505,9 +499,6 @@ footer{
 
     /*Corpo principal para celular deitado ou tablet*/
 
-    #cp-imp{
-        margin-left: 3px;
-    }
 
     /*Rodapé para celular deitado ou tablet*/
     .esq{
