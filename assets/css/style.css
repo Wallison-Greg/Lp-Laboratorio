@@ -54,6 +54,17 @@ nav a:hover{
     border-radius: 5px;
 }
 
+#menu-mob{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 25px 40px 0px;
+}
+.mm-line{
+    height: 2px;
+    background-color: #42b3e5;
+}
+
 /*Formatando o banner da aplicação*/
 
 #baner{
@@ -515,7 +526,33 @@ footer{
 @media (max-width: 590px){
 
     /*Formatando o cabeçalho */
+    header{
+        height: auto;
+    }
+    header .container{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display:none;
+        position: absolute;
+        right: 0px;
+        background-color: white;
+    }
+    #padd1,
+    #padd2{
+       padding: 6px;
+    }
+    #logo{
+        padding-left: 15px;
+    }
+    #menu-mob{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 
+    /*Formatando o banner*/
     #headline{
         padding-left: 15px;
     }
@@ -577,5 +614,8 @@ footer{
     .footer-area{
         flex-direction: column;
         padding: 15px;
+    }
+    .copy{
+        font-size: 10px;
     }
 }
